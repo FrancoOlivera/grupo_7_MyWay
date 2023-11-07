@@ -9,3 +9,6 @@ Integrantes del grupo:
 * Franco Olivera
 * Mariano Zelada
 * Nicolas Salvatierra
+
+Link Trello
+https://trello.com/b/pFpi6LhF/prueba
