@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header{
+    background-color: #ccc;
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+
+header nav{
+    display: none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline solid 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #eeeeee;
+}
+
+.selected-products{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    grid-row-gap: 25px;
+    padding-bottom: 50px;
+}
+
+.selected-product{
+    display: grid;
+    grid-template-columns: 50% auto 15px;
+    grid-gap: 0px;
+    grid-row-gap: 0px;
+}
+.product_img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.description-article{
+    padding-left: 10px;
+}
+
+.quantity{
+    width: 50%;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    height: 20px;
+    padding: 4px 18px;
+    text-align: center;
+    line-height: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remove{
+    display: inline-block;
+    align-self:baseline;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.remove-bag{
+    border-color: transparent;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+.subtotal-price{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+.detail-right{
+    font-size: 16px;
+    text-align: right;
+}
+
+.installments-center{
+    text-align: center;
+}
+
+.button-to-pay{
+    font-size: 20px;
+    color: #FFF;
+    background-color: rgb(224, 46, 144);
+    height: 34px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 18px;
+}
+
+.button-to-buying{
+    font-size: 20px;
+    color: #FFF;
+    background-color: black;
+    height: 34px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 18px;
+}
