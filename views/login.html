@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/">
+    <link rel="stylesheet" href="/css/styles-reglog.css">
     <title>Login</title>
 </head>
 <body>
-    */Titulo de Login
-    */formulario de Login
-    */nombre de usuario
-    */contraseña
-    */tilde de "Recordar mi cuenta"
-    */boton de logear
-    */linea de  "Registrarme" redireccionado al register
+    <form action="/" method="post">
+        <section class="form-login">    
+            <h4>Loguea tu Usuario</h4>
+            <label for="nombre">Nombre</label>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <label for="password">Password</label>
+            <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
+            <input type="checkbox" id="checkbox" value="Recordar mi usuario">
+            <label for="checkbox">Recordar mi usuario</label>
+            <button class="button" type="submit">Ingresar</button>
+        </section>    
+    </form>
 </body>
 </html>

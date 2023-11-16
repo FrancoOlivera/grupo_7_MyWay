@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/">
+    <link rel="stylesheet" href="/css/styles-reglog.css">
     <title>Register</title>
 </head>
 <body>
-    */titulo de Registro
-    */datos del usuario
-    */nombre
-    */apellido
-    */direccion de email
-    */contraseña 
-    */repetir contraseña 
-    */boton de registrarse con envio de datos al home
-    */pequeña linea de "ya tengo una cuenta" que redireccione al Login
+    <form action="/" method="post">
+        <section class="form-registro">
+            <h4>Formulario Registro</h4>
+            <label for="nombre">Nombre</label>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <label for="apellido">Apellido</label>
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellido">
+            <label for="email">Email</label>
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+            <label for="password">Password</label>
+            <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
+            <p>Estoy de acuerdo con <a href="/terminosycondiciones">Terminos y Condiciones</a></p>
+            <button class="button" type="submit">Registrar</button>
+            <p><a href="/login">Ya tengo una cuenta</a></p>
 </body>
 </html>
