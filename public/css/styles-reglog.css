@@ -9,7 +9,7 @@ body {
     background-size: cover;
 }
 .form-registro { 
-    width: 400px;
+    width: 50%;
     background: #24303c;
     padding: 30px;
     margin: auto;
@@ -79,7 +79,7 @@ h4 {
 }
 
 .form-login { 
-    width: 400px;
+    width: 50%;
     background: #24303c;
     padding: 30px;
     margin: auto;
