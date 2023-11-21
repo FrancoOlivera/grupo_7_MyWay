@@ -3,16 +3,20 @@ const app = express();
 app.use(express.static("public"));
 const PORT = 3030;
 
+
+app.set("view engine", "ejs");
+app.set("views", "./views")
+
 app.listen(PORT, ()=>{
     console.log("Servidor "+ PORT + " iniciado")
 });
 
 app.get("/register", (req,res)=>{
-   res.sendFile(__dirname + "/views/register.html")
+   res.render("register")
 });
 
 app.get("/login", (req,res)=>{
-    res.sendFile(__dirname + "/views/login.html")
+    res.render("login")
 })
 
 app.get('/shopping-bag', (req,res)=>{
