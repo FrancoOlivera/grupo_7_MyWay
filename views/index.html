@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge";>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    
+    
+    <script src="script.js"></script>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class=""logo>Logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="/images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="#">Inicio</a></li>
+                    <li> <a href="#">Productos</a></li>
+                    <li> <a href="#">Login</a></li>
+                    <li> <a href="#">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+            <ul>
+                <li class="submenu">
+                    <img id="img-carrito" src="images/car.svg" alt="car">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito">Vaciar Carito</a>                        
+                    </div>                
+                </li>
+            </ul>
+        </div>
+        <div class="header-content container">
+            <div class="header.txt">
+                <span>¡Bienvenidos!</span>
+                                
+            </div> 
+            <div class="header-img">
+                <img src="images/bag.png" alt="">
+            </div>   
+        </div>
+
+    </header>  
+
+    <main class="product container">
+        <h2>Productos Destacadas</h2>
+        <div class="box-cointainer" id="lista-1">
+
+            <div class="box">
+                <img src="images/pr1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Calza Deportiva Nike</h3>
+                    <p>Exclente Calidad, Colores Varios</p>
+                    <p>Talles: P aa GG</p>
+                    <p class="precio">$5000</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="1">
+                        Agregar al carrito</a>                        
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Calza Deportiva Nike</h3>
+                    <p>Confeccionada con Franjas y Transparencias</p>
+                    <p>Talles: P al GG</p>
+                    <p class="precio">$6200</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="2">
+                        Agregar al carrito</a>                        
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="images/pr3.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Short Casual Rose</h3>
+                    <p>Confeccionado en Gabardina</p>
+                    <p>Talles S / M / L / XL</p>
+                    <p class="precio">$3500</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="3">
+                        Agregar al carrito</a>                        
+                </div>
+            </div>
+
+           <div class="box">
+                <img src="images/pr4.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Monitos Estampados</h3>
+                    <p>Calidad Premium, Confeccionado en Fibrana</p>
+                    <p>Talles S / M / L / XL</p>
+                    <p class="precio">$7500</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="4">
+                        Agregar al carrito</a>                        
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="images/pr5.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Pantalon Tiro Alto</h3>
+                    <p>Confreccionado en Gabardina Premium</p>
+                    <p>Talles: S / M / L / XL</p>
+                    <p class="precio">$8200</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="5">
+                        Agregar al carrito</a>                        
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr6.jpg" alt="">
+                <div class="product-txt">
+                    <h3>Blazer de Bengalina</h3>
+                    <p>Alta Calidad</p>
+                    <p>Talles: del 2 al 7</p>
+                    <p class="precio">$9500</p>
+                    <a href="#" class="agregar-carrito btn3" data-id="6">
+                        Agregar al carrito</a>                        
+                </div>
+            </div>
+
+        </div>
+            
+        <div class="btn-2" id="load-mode">
+            Cargar Mas</div>
+    </main>
+    
+        <footer class="footer">
+           
+            <div class="footer">
+
+                <div class="cointainer">
+
+                    <div class="footer-row">
+
+                        <div class="footer-links">
+                            <h4>Compañia</h4>
+                            <ul>
+                                <li><a href="#">Nosotros</a></li>
+                                <li><a href="#">Nuestros Servicios</a></li>
+                                <li><a href="#">Politicas de Privacidad</a></li>
+                                <li><a href="#">Nosotros</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links">
+                            <h4>Ayuda</h4>
+                            <ul>
+                                <li><a href="#">Preguntas Frecuentes</a></li>
+                                <li><a href="#">Compras</a></li>
+                                <li><a href="#">Envios</a></li>
+                                <li><a href="#">Formas de Pago</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links">
+                            <h4>Tienda</h4>
+                            <ul>
+                                <li><a href="#">Remeras</a></li>
+                                <li><a href="#">Ropa Interior</a></li>
+                                <li><a href="#">Sport</a></li>
+                                <li><a href="#">Accesorios</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links">
+                            <h4>Síguenos</h4>
+                            <div class="social-link">                           
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

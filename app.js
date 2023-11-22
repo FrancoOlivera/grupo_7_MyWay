@@ -7,6 +7,10 @@ app.listen(PORT, ()=>{
     console.log("Servidor "+ PORT + " iniciado")
 });
 
+app.get("/index", (req,res)=>{
+    res.sendFile(__dirname + "/views/index.html")
+ });
+
 app.get("/register", (req,res)=>{
    res.sendFile(__dirname + "/views/register.html")
 });
