@@ -5,7 +5,7 @@ El negocio "My Way" tiene como actividad principal la venta de indumentaria feme
 La pagina web de "My Way" se hace con insipiracion en las de negocios ya reconocidos publicamente como ser Etam, Pato Pampa, Lacoste, Puma, Dexter y Sporting.
 
 Integrantes del grupo:
-* Cintia Medina
+* Jennfier Villagra
 * Franco Olivera
 * Mariano Zelada
 * Nicolas Salvatierra
