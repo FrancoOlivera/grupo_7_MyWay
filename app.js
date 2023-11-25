@@ -16,6 +16,11 @@ app.get("/index", (req,res)=>{
     res.sendFile(__dirname + "/views/index.html")
  });
 
+ app.get("/productDetail", (req,res)=>{
+    res.sendFile(__dirname + "/views/productDetail.html")
+ });
+
+
 app.get("/register", (req,res)=>{
    res.render("register")
 });

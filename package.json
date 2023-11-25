@@ -1,7 +1,22 @@
 {
+  "name": "grupo_7_myway",
+  "description": "El negocio \"My Way\" tiene como actividad principal la venta de indumentaria femenina, tanto prendas urbanas como deportivas contemporaneas. Actualmente existente en ciudad capital de Santiago del Estero, buca expandir sus ventas a traves de su pagina web y redes sociales, para llegar a las distintas mujeres de nuestro pais.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+  "ejs": "^3.1.9",
+  "express": "^4.18.2",
+  "nodemon": "^3.0.1"
   }
 }
+
+ 
