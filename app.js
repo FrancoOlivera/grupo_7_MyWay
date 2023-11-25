@@ -6,18 +6,18 @@ const PORT = 3030;
 
 
 app.set("view engine", "ejs");
-app.set("views", "views")
+app.set("views", "viewss")
 
 app.listen(PORT, ()=>{
     console.log("Servidor "+ PORT + " iniciado")
 });
 
-app.get("/index", (req,res)=>{
-    res.sendFile(__dirname + "/views/index.html")
+app.get("/", (req,res)=>{
+    res.render("index")
  });
 
  app.get("/productDetail", (req,res)=>{
-    res.sendFile(__dirname + "/views/productDetail.html")
+    res.render("productDetail")
  });
 
 
@@ -30,5 +30,5 @@ app.get("/login", (req,res)=>{
 })
 
 app.get('/shopping-bag', (req,res)=>{
-    res.sendFile(__dirname + '/views/shopping-bag.html');
+    res.render("shopping-bag")
 });
