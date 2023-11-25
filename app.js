@@ -1,11 +1,12 @@
 const express = require("express");
+const path = require("path")
 const app = express();
-app.use(express.static("public"));
+app.use(express.static(path.join("public")));
 const PORT = 3030;
 
 
 app.set("view engine", "ejs");
-app.set("views", "./views")
+app.set("views", "views")
 
 app.listen(PORT, ()=>{
     console.log("Servidor "+ PORT + " iniciado")
