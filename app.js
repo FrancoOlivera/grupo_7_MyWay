@@ -6,7 +6,7 @@ const PORT = 3030;
 
 
 app.set("view engine", "ejs");
-app.set("views", "viewss")
+app.set("views", "views")
 
 app.listen(PORT, ()=>{
     console.log("Servidor "+ PORT + " iniciado")
@@ -31,4 +31,8 @@ app.get("/login", (req,res)=>{
 
 app.get('/shopping-bag', (req,res)=>{
     res.render("shopping-bag")
+});
+
+app.get('/crear', (req,res)=>{
+    res.render("crear")
 });

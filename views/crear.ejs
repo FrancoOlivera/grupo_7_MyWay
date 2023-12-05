@@ -1,0 +1,23 @@
+<%- include("partials/head", title="Products")  %>
+<body>
+    <%- include("partials/header")  %>
+    <section>
+        <form action="/" method="post">
+            <section class="form-registro">
+                <h4>Formulario Registro</h4>
+                <label for="name">Nombre de producto</label>
+                <input class="controls" type="text" name="name" id="name" placeholder="Ingrese nombre del producto">
+                <label for="class">Clasificacion del producto</label>
+                <input class="controls" type="text" name="class" id="class" placeholder="Ingrese clasificacion del producto">
+                <label for="price">Precio</label>
+                <input class="controls" type="email" name="price" id="price" placeholder="Ingrese su correo">
+                <label for="image">Imagen</label>
+                <input class="controls" type="file" name="image" id="image" placeholder="Ingrese una imagen del producto">
+                <p>Estoy de acuerdo con <a href="/terminosycondiciones">Terminos y Condiciones</a></p>
+                <button class="button" type="submit">Crear</button>
+                <p><a href="/login">Ya tengo una cuenta</a></p>
+        </form>
+       </section> 
+    <%- include("partials/footer") %>
+    
+</body>
