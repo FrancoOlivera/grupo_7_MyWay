@@ -16,6 +16,24 @@ SPRINT 3
 * Plantear modificaciones
 * Preguntar y consultar a profesores
 
-
+SPRINT 4
+* Comenzar a hacer: 
+- Organizarnos con los horarios de las reuniones.
+* Trabajo en equipo.
+* Ayudarse entre compañeros.
+* Hacer más:
+- Consultar a los profesores.
+- Reasignar tareas para mejorar la organización.
+* Continuar haciendo:
+- Comunicación fluida.
+- Usar Weekly para programar juntos.
+- Revisar que todo esté bien.
+* Hacer menos:
+- Dejar todo a ultimo momento.
+- No consultar a otros compañeros.
+* Dejar de hacer:
+- Posponer las reuniones.
+- Llegar sin revisar las clases.
+- No irse del grupo.
 
 
